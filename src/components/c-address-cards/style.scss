@@ -1,0 +1,42 @@
+.c-address-cards {
+  .c-address-cards__item {
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 100%;
+    height: 112px;
+    padding: 10px 16px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background: white;
+    position: relative;
+    p:nth-child(1) {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+    p:nth-child(2) {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      margin-bottom: 10px;
+    }
+    p:nth-child(3) {
+      img {
+        width: 20px;
+        height: 20px;
+        float: right
+      }
+    }
+    .default-icon {
+      width: 77px;
+      height: 19px;
+      background-color: #eb4a24;
+      color: white;
+      position: absolute;
+      bottom: 0px;
+      left: 16px;
+      text-align: center;
+    }
+  }
+}

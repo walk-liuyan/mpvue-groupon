@@ -1,0 +1,19 @@
+.c-pay-res-status {
+  height: 85px;
+  background: white;
+  div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+  .pay-res__pay-success {}
+  .pay-res__pay-error {}
+  .pay-res__group-success {}
+  .pay-res__group-error {}
+}

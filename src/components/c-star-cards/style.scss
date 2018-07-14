@@ -1,0 +1,41 @@
+.c-star-cards {
+  .c-star__item {
+    height: 110px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    display: flex;
+    .product-img {
+      width: 105px;
+      padding-right: 15px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 90px;
+        height: 90px;
+      }
+    }
+    .product-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p {
+        height: 35px;
+        font-size: 14px;
+      }
+      p:nth-child(1) {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 230px;
+      }
+      p:nth-child(2) {
+        color: red;
+      }
+    }
+  }
+}

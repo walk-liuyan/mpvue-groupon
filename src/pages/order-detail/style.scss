@@ -1,0 +1,118 @@
+.p-order-detail {
+  width: 100%;
+  background-color: $page-bg-light;
+  div {
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  .p-order-detail__status-title {
+    background: white;
+    color: white;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    height: 60px;
+    background: linear-gradient(to right, $btn, $title-bg-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .p-order-detail__address__pickup {
+    .c-preorder-address__qrcode{
+      width: 87px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      image {
+        width: 87px;
+        height: 87px;
+      }
+    }
+  }
+  .p-order-detail__address__mail, .p-order-detail__address__pickup  {
+    background: white;
+    margin-bottom: 5px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 107px;
+    display: flex;
+    .c-preorder-address__icon {
+      width: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+    .c-preorder-address__content {
+      box-sizing: border-box;
+      padding: 15px 8px;
+      flex: 1;
+      .user-info {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .user-address {
+        margin-top: 5px;
+        font-size: 13px;
+      }
+    }
+  }
+  .p-order-detail__order-info {
+    background: white;
+    color: $text;
+    padding: 10px 16px;
+    p {
+      padding: 2px 0;
+    }
+  }
+  .p-order-detail__price {
+    background: white;
+    padding: 0 16px;
+    p {
+      height: 39px;
+      box-sizing: border-box;
+      border-bottom: 1px solid $page-bg-light;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $text;
+    }
+    p:last-child {
+      border-bottom: none;
+    }
+  }
+  .p-order-detail__price-end {
+    padding: 10px 16px;
+    color: $text;
+    background: $page-bg-light;
+    height: 39px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    span:first-child {}
+    span:last-child {
+      color: $border-selected;
+    }
+  }
+  .p-order-detail__products {
+    background: white;
+    padding: 0px;
+  }
+  .p-order-detail__opt-bar {
+    padding: 10px 16px;
+    background: white;
+    width: 100%;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+  }
+}

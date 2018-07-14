@@ -1,0 +1,20 @@
+.c-product-counter {
+  display: flex;
+  font-size: 14px;
+  span {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid rgb(170, 170, 170);
+  }
+  input {
+    border: 1px solid rgb(170, 170, 170);
+    border-right: none;
+    border-left: none;
+    width: 55px;
+    height: 33px;
+    text-align: center;
+  }
+}

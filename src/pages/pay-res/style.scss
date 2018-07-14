@@ -1,0 +1,112 @@
+.p-pay-res {
+  .c-pay__success {
+    width: 340px;
+    margin: 0 auto;
+    .c-pay__success__startGroup {
+      border-radius: 12px;
+      box-shadow: 0px 5px 10px rgb(215, 215, 215);
+      margin-bottom: 20px;
+      .c-pay__success__title {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        box-sizing: border-box;
+        padding: 10px 16px;
+        border-radius: 12px 12px 0 0;
+        .text {
+          width: 150px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .avatar {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          img {
+            float: right;
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+      .c-pay__success__content {
+        width: 340px;
+        height: 375px;
+        position: relative;
+        img {
+          width: 340px;
+          height: 375px;
+        }
+        .info {
+          position: absolute;
+          bottom: 0px;
+          z-index: 1;
+          height: 95px;
+          box-sizing: border-box;
+          padding: 10px 16px;
+          background: rgba(255, 255, 255, 0.85);
+          border-radius: 0 0 12px 12px;
+          p:nth-child(1) {
+            font-size: 15px;
+            color: #000;
+          }
+          p:nth-child(2) {
+            font-size: 10px;
+            color: $border;
+            text-decoration: line-through;
+          }
+          p:nth-child(3) {
+            font-size: 18px;
+            color: $border-selected;
+          }
+        }
+      }
+    }
+    .c-pay__success__countDown{
+      height: 40px;
+      line-height: 40px;
+      width: 340px;
+      margin: 0 auto;
+      color: white;
+      border-radius: 5px;
+      background: linear-gradient(to right, $btn , $title-bg-light);
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .c-pay__success__opt {
+      display: flex;
+      justify-content: space-between;
+      width: 340px;
+      margin: 0 auto;
+      span {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+      }
+      span:nth-child(1) {
+        color: $text;
+        border: 1px solid $text;
+      }
+      span:nth-child(2) {
+        color: white;
+        background: $btn;
+        border: 1px solid $btn;
+      }
+    }
+  }
+  .c-recommend {
+    background: white;
+    section {
+      font-size: 14px;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 16px;
+    }
+  }
+}

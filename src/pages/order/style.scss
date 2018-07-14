@@ -1,0 +1,42 @@
+.c-order {
+  background-color: $page-bg-light;
+  .weui-tab {
+    .weui-navbar {
+      background-color: white;
+      margin-bottom: 5px;
+      font-size: 14px;
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      display: flex;
+      .weui-navbar__slider {}
+      .weui-bar__item_on {
+        border-bottom: 1px solid $btn;
+      }
+      .weui-navbar__item {
+        flex: 1;
+        .weui-navbar__title {
+          text-align: center;
+        }
+      }
+    }
+    .weui-tab__panel {
+      background-color: white;
+      .weui-tab__content {
+        padding-bottom: 55px;
+        .c-star-recommend {
+          background: white;
+          section {
+            font-size: 14px;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 16px;
+          }
+        }
+        &.weui-tab__content__is-iphonex{
+          padding-bottom: 100px;
+        }
+      }
+    }
+  }
+}

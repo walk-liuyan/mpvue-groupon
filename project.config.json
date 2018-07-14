@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wxd668f2b5f894cb84",
+	"projectname": "poster",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/demo",
+					"pathName": "pages/demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/home",
+					"pathName": "pages/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/pay-res",
+					"pathName": "pages/pay-res",
+					"query": ""
+				}
+			]
+		}
+	}
+}

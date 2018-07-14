@@ -1,0 +1,16 @@
+.c-loading {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 5px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}

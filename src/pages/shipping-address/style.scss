@@ -1,0 +1,18 @@
+.c-address {
+  padding-bottom: 55px;
+  background-color: $page-bg-light;
+  .c-address__add {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    background-color:#eb4a24;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  &.c-address__is-iphonex {
+    padding-bottom: 100px;
+  }
+}

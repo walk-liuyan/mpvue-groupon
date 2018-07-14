@@ -1,0 +1,100 @@
+.c-product {
+  background-color: $page-bg-light;
+  .c-product-detail {
+    .c-product-detail__swiper {
+      .slide-image {
+        width: 100%;
+        height: 100%;
+      }
+      .c-product-detail__menu {
+        position: absolute;
+        z-index: 1;
+        right: 15px;
+        top: 114px;
+        width: 40px;
+        height: 150px;
+        img {
+          width: 40px;
+          height: 40px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .c-product-detail__baseinfo {
+      background: $title-bg-light;
+      width: 100%;
+      max-height: 70px;
+      padding: 10px 16px;
+      box-sizing: border-box;
+      dt {
+        color: $btn;
+        line-height: 25px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+    }
+    .c-product-detail-groupon {
+      box-sizing: border-box;
+      padding: 0 16px;
+      height: 47px;
+      line-height: 47px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: $title-bg-dark;
+      span {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        color: white;
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+        img:nth-child(1){
+          position: relative;
+          left: 0px;
+        }
+        img:nth-child(2){
+          position: relative;
+          left: -5px;
+        }
+        img:nth-child(3){
+          position: relative;
+          left: -10px;
+        }
+        a {
+          margin-left: 10px;
+          text-decoration: none;
+        }
+      }
+      span:last-child {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        border-radius: 3px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        border: 1px solid $btn;
+      }
+    }
+    .c-product-detail-picList {
+      margin-top: 5px;
+      width: 100%;
+      padding-bottom: 55px;
+      img {
+        width: 100%;
+      }
+      &.c-product-detail-picList__is-iphonex {
+        padding-bottom: 100px;
+      }
+    }
+  }
+}

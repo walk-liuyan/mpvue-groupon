@@ -1,0 +1,9 @@
+.c-preorder {
+  background-color: $page-bg-light;
+  padding-bottom: 55px;
+  .c-preorder-address-navbar {
+  }
+  &.c-preorder__is-iphonex {
+    padding-bottom: 100px;
+  }
+}

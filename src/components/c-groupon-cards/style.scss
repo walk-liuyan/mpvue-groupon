@@ -1,0 +1,49 @@
+.c-groupon-cards {
+  padding: 0px 16px;
+  .groupon-item {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid $border;
+    .groupon-item__avatar {
+      width: 60px;
+      img {
+        width: 100%;
+        height: 60px;
+        border-radius: 50%;
+      }
+    }
+    .groupon-item__info {
+      flex: 1;
+      font-size: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 10px;
+      p:first-child {
+        font-size: 14px;
+      }
+    }
+    .groupon-item__btn {
+      width: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        display: inline-block;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        background: $btn;
+        color: white;
+        font-size: 14px;
+      }
+    }
+  }
+  .groupon-item:last-child {
+    border: none;
+  }
+}

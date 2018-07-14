@@ -1,0 +1,53 @@
+.c-groupon-swiper-product-cards {
+  width: 100%;
+  .c-groupon-swiper-product-cards__item {
+    width: 100%;
+    height: 97.5px;
+    padding: 18px 16px;
+    display: flex;
+    font-size: 13px;
+    box-sizing: border-box;
+    border-bottom: 1px solid $btn;
+    .img {
+      flex: 1;
+      height: 60px;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .info {
+      padding-left: 10px;
+      box-sizing: border-box;
+      width: 250px;
+      height: 60px;
+      display: flex;
+      flex-direction: column;
+      .title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .price {
+        margin-top: 18px;
+        height: 25px;
+        line-height: 25px;
+        display: flex;
+        justify-content: space-between;
+        span:first-child {
+          color: $btn;
+        }
+        span:last-child {
+          float: right;
+          display: inline-block;
+          text-align: center;
+          box-sizing: border-box;
+          padding: 0 8px;
+          background: $title-bg-dark;
+          color: $text-white;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}

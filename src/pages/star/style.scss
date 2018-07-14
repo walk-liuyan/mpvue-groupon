@@ -1,0 +1,36 @@
+.c-star {
+  background: $page-bg-light;
+  .c-star__content__none {
+    height: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 136px;
+      height: 112px;
+    }
+    span {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  }
+  .c-star__content {
+    background: white;
+    margin-bottom: 55px;
+    &.c-star-content__is-iphonex {
+      margin-bottom: 100px;
+    }
+  }
+  .c-star-recommend {
+    background: white;
+    section {
+      font-size: 14px;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 16px;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+.c-product-tabbar {
+  height: 50px;
+  width: 100%;
+  background: gray;
+  display: flex;
+  .tabbar__option {
+    width: 124px;
+    height: 100%;
+    display: flex;
+    span {
+      flex: 1;
+    }
+  }
+  .tabbar__buy {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    span {
+      flex: 1;
+    }
+  }
+}
